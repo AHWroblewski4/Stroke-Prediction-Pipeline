@@ -29,10 +29,10 @@ Link: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 ## Model Performace
 | Model               | Accuracy | AUC  | Precision | Recall | Specificity | Interpretation                                   |
 | ------------------- | -------- | ---- | --------- | ------ | ----------- | ------------------------------------------------ |
-| Logistic Regression | 0.78     | 0.81 | 0.15      | 0.81   | 0.79        | Strong recall, interpretable model               |
-| SVM                 | 0.76     | 0.80 | 0.16      | 0.85   | 0.75        | High recall, good sensitivity                    |
-| GBT                 | 0.82     | 0.84 | 0.16      | 0.68   | 0.84        | Best trade-off between precision and specificity |
-| MLP                 | 0.72     | 0.69 | 0.10      | 0.33   | 0.70        | Poorest performer overall                        |
+| Logistic Regression | 0.727     | 0.861 | 0.154      | 0.810   | 0.722        | Strong recall, interpretable model               |
+| SVM                 | 0.719     | 0.861 | 0.155      | 0.845   | 0.712        | High recall, good sensitivity                    |
+| GBT                 | 0.819     | 0.802 | 0.162      | 0.50   | 0.839        | Best trade-off between precision and specificity |
+| MLP                 | 0.779     | 0.698 | 0.096     | 0.328   | 0.8097       | Poorest performer overall                        |
 
 ** All models achieved moderate-to-high accuracy, but precision remained low due to class imbalance
 
