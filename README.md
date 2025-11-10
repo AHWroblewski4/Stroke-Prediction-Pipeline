@@ -19,13 +19,15 @@ This project implements a Spark-based classification pipeline to predict stroke 
 * Gradient-Boosted Trees (GBT)
 * Multilayer Perceptron (MLP)
 
-All models were trained and evaluated on an 80/20 train-test split using 3-fold cross-validation.
+** All models were trained and evaluated on an 80/20 train-test split using 3-fold cross-validation.
 
 
-##Model Performace:
+## Model Performace
 | Model               | Accuracy | AUC  | Precision | Recall | Specificity | Interpretation                                   |
 | ------------------- | -------- | ---- | --------- | ------ | ----------- | ------------------------------------------------ |
 | Logistic Regression | 0.78     | 0.81 | 0.15      | 0.81   | 0.79        | Strong recall, interpretable model               |
 | SVM                 | 0.76     | 0.80 | 0.16      | 0.85   | 0.75        | High recall, good sensitivity                    |
 | GBT                 | 0.82     | 0.84 | 0.16      | 0.68   | 0.84        | Best trade-off between precision and specificity |
 | MLP                 | 0.72     | 0.69 | 0.10      | 0.33   | 0.70        | Poorest performer overall                        |
+
+** All models achieved moderate-to-high accuracy, but precision remained low due to class imbalance
