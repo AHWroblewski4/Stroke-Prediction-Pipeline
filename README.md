@@ -21,6 +21,10 @@ This project implements a Spark-based classification pipeline to predict stroke 
 
 ** All models were trained and evaluated on an 80/20 train-test split using 3-fold cross-validation.
 
+## Dataset
+Source: Kaggle – Healthcare Dataset Stroke Data
+
+Link: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 
 ## Model Performace
 | Model               | Accuracy | AUC  | Precision | Recall | Specificity | Interpretation                                   |
@@ -44,3 +48,14 @@ This project implements a Spark-based classification pipeline to predict stroke 
 
 As the number of virtual machines increased, both the total runtime and the model training time decreased. Running the Spark pipeline on multiple VMs allowed tasks to be processed in parallel, reducing computation time compared to a single-VM setup.
 
+## Cluster Setup
+* 1 Master Node
+* 3 Worker Nodes
+* Passwordless SSH configured between nodes
+* Spark Standalone mode used with the Spark master at spark://master:7077
+* Data stored and accessed via HDFS (hdfs://master:9000/user/sat3812/stroke_project/data/)
+
+## Required   
+* Python 3.x
+* Apache Spark installed on all VMs
+* PySpark, NumPy, Pandas
