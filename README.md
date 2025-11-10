@@ -55,7 +55,7 @@ As the number of virtual machines increased, both the total runtime and the mode
 * Spark Standalone mode used with the Spark master at spark://master:7077
 * Data stored and accessed via HDFS (hdfs://master:9000/user/sat3812/stroke_project/data/)
 
-## Required   
+## Requirements   
 * Python 3.x
 * Apache Spark installed on all VMs
 * PySpark, NumPy, Pandas
