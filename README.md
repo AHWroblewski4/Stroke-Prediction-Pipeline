@@ -12,3 +12,11 @@ This project implements a Spark-based classification pipeline to predict stroke 
 * Missing numeric values imputed using the median
 * One-hot encoding applied to categorical variables
 * Features assembled and scaled using VectorAssembler and StandardScaler
+
+## Machine Learning Models
+* Logistic Regression
+* Support Vector Machine (SVC)
+* Gradient-Boosted Trees (GBT)
+* Multilayer Perceptron (MLP)
+
+All models were trained and evaluated on an 80/20 train-test split using 3-fold cross-validation.
