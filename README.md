@@ -59,3 +59,10 @@ As the number of virtual machines increased, both the total runtime and the mode
 * Python 3.x
 * Apache Spark installed on all VMs
 * PySpark, NumPy, Pandas
+
+
+## Team Members
+Andrea Wroblewski
+
+Olivia Gette
+
