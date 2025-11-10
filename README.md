@@ -41,10 +41,10 @@ Link: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 
 | **Number of VMs** | **Cores Used (8 per VM)** | **Total Runtime (min)** | **Model Training + Evaluation Time (s)** |
 | ----------------- | ------------------------- | ----------------------- | ---------------------------------------- |
-| 1 VM              | 8                         | 54                      | 3,094.31                                 |
+| 1 VM              | 8                         | 54                      | 3,113.05                                 |
 | 2 VMs             | 16                        | 37                      | 2,140.14                                 |
-| 3 VMs             | 24                        | 36                      | 1,805.53                                 |
-| 4 VMs             | 32                        | 27                      | 1,533.06                                 |
+| 3 VMs             | 24                        | 36                      | 1,999.54                                 |
+| 4 VMs             | 32                        | 27                      | 1,536.06                                 |
 
 As the number of virtual machines increased, both the total runtime and the model training time decreased. Running the Spark pipeline on multiple VMs allowed tasks to be processed in parallel, reducing computation time compared to a single-VM setup.
 
